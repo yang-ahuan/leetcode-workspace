@@ -1,4 +1,4 @@
-# Method1(brute) : Scan all of possibilities
+# Idea : Scan all of possibilities
 # Time/space complexity : O(n^2) / O(1)
 class Solution:
     def twoSum(self, nums: list, target: int) -> list:
@@ -7,7 +7,7 @@ class Solution:
                 if nums[front_idx]+nums[behind_idx] == target:
                     return [front_idx, behind_idx]
 
-# Method2 : Check whether difference of target and each number is in nums. To look at difference in nums faster, I convert the data type to set.
+# Idea : Check whether difference of target and each number is in nums. To look at difference in nums faster, I convert the data type to set.
 # Time/space complexity : O(n) / O(n)
 class Solution:
     def twoSum(self, nums: list, target: int) -> list:
