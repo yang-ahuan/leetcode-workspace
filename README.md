@@ -1,3 +1,3 @@
 # leetcode-workspace
-* Idea (or optimize brute force)
+* Idea
 * Time complexity
