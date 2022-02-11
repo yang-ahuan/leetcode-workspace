@@ -1,7 +1,7 @@
-# Idea :
-# Phase 1 -- Initailize a new list and two pointers for retruning and tracking
-# Phase 2 -- Compare value of two sorted lists. There are two cases(>, <=) against list1.
-# Phase 3 -- Add smaller value of node to new list.
+# Pattern : Two pointers
+# Step 1 -- Initailize a new list and two pointers for retruning and tracking
+# Step 2 -- Compare value of two sorted lists. There are two cases(>, <=) against list1.
+# Step 3 -- Add smaller value of node to new list.
 
 class ListNode:
     def __init__(self, val=0, next=None):
