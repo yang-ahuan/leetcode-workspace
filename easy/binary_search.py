@@ -1,7 +1,8 @@
 # Pattern : Binary Search(standard method)
-# Step 1 -- Initialize two pointers at top and tail
-# Step 2 -- Compare target with middle. There are 3 cases (>, <, =)
-# Step 3 -- If equal, return index of target. if not found, return -1
+#
+# Init -- Initialize two pointers at top and tail
+# Step 1 -- Compare target with middle. There are 3 cases (>, <, =)
+# Term -- If equal, return index of target. if not found, return -1
 
 class Solution:
     def search(self, nums: list, target: int) -> int:

@@ -1,7 +1,8 @@
 # Pattern : Binary search
-# Step 1 : Check whether the case is the worst.
-# Step 2 : Operate binary search.
-# Difference(compared to binary search) : It cannot stop early, because it will scan completely.
+#
+# Step 1 -- Check whether the case is the worst.
+# Step 2 -- Operate binary search.
+# Difference(compared to binary search) -- It cannot stop early, because it will scan completely.
 
 class Solution:
     def nextGreatestLetter(self, letters: list, target: str) -> str:
