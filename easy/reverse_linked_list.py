@@ -3,7 +3,7 @@
 # Init : New three potiners to record front, back and tracking node.
 # Step 1 : Reverse the first two pointers.
 # Step 2 : Move three pointers to next node at the same time.
-# Term : Stop running when front is None.
+# Term : After operate the last reverse, stop running when front is None.
 
 class ListNode:
     def __init__(self, val=0, next=None):

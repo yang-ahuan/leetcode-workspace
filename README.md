@@ -1,3 +1,8 @@
 # leetcode-workspace
-* Idea
+* Pattern
+* Algorithm
+    * Initialization
+    * Idea
+    * Termination
+* Code
 * Time complexity
